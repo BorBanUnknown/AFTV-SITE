@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  background-color: darkred;
+}
+
+#welcome #video {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+#welcome #video video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* NOWA KOMENDA!!! UŻYŁEM AI BY SIĘ O NIEJ DOWIEDZIEĆ */
+}
+
+#welcome #video h1 {
+  font-family: "Bebas Neue", sans-serif;
+  position: absolute;
+  right: 2rem;
+  bottom: 2rem;
+  margin: 0;
+  color: red;
+  font-weight: 900;
+  font-size: 100px;
+  text-shadow: 2px 1px 4px black;
+}
+
+#welcome #video h2 {
+  position: absolute;
+  color: white;
+  margin: 0;
+  right: 2rem;
+  bottom: 2rem;
+  text-shadow: 2px 1px 4px black;
+}
+
+#welcome #video #topbar {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+
+#welcome #video #topbar ul {
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#welcome #video #topbar ul li a {
+  font-size: 20px;
+  color: red;
+  text-decoration: none;
+  text-shadow: 0px 1px 1px black;
+}
+
+#welcome #video #topbar ul li a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+#welcome #video #topbar img {
+  width: 70px;
+  height: auto;
+  filter: drop-shadow(
+    4px 4px 8px rgba(0, 0, 0, 0.5)
+  ); /* NOWA KOMENDA!!! UŻYŁEM AI BY SIĘ O NIEJ DOWIEDZIEĆ */
+}
+
+main {
+  padding-inline: 30%;
+  padding-top: 20px;
+}
+
+main header h2 {
+  text-align: center;
+}
+
+main header #news #RBL {
+  position: relative;
+  width: 50%;
+  transition: transform 300ms ease;
+}
+
+main header #news #RBL:hover {
+  transform: scale(1.05); /* NOWA KOMENDA/AI */
+}
+
+main header #news #RBL img {
+  display: block;
+  width: 100%;
+}
+
+main header #news #RBL h3 {
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 12px;
+  color: white;
+  background: rgba(0, 0, 0, 0.65);
+}
